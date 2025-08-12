@@ -5,6 +5,13 @@ A lightweight **Zsh plugin** to add **custom prefixes** and optional **icons** t
 Supports multiple prefix styles (`[fix]:` or `Fix:`) and icon themes (`classic`, `minimal`, or none).  
 
 ---
+## ⚡ Quick Start
+```bash
+git-commit-prefixer feat "add dark mode toggle"
+# ✨ [feat]: add dark mode toggle
+```
+
+---
 
 ## ✨ Features
 - Quickly add consistent commit prefixes.
@@ -31,21 +38,31 @@ Supports multiple prefix styles (`[fix]:` or `Fix:`) and icon themes (`classic`,
    source ~/.zshrc
    ```
 
+
 ---
 
+## 🎥 Demo
+
+**Static preview**  
+![Plugin demo static](assets/commit-prefixer.svg)
+
+**Live demo (Asciinema)**  
+[![asciicast](https://asciinema.org/a/LplBSexiC7dIuabqNyLUFzWt1.svg)](https://asciinema.org/a/LplBSexiC7dIuabqNyLUFzWt1)
+---
 ## ⚙️ Configuration
 
-Edit the `icons.conf` file in the plugin folder.
+Edit the `icons.conf` file in the plugin folder or adjust the variables inside it.  
 
-### Example:
+| Setting        | Values                        | Default   | Description |
+|----------------|--------------------------------|-----------|-------------|
+| `USE_ICONS`    | `true` / `false`               | `true`    | Enable or disable icons |
+| `PREFIX_STYLE` | `brackets` / `labels`          | `brackets`| Commit prefix format |
+| `ICON_STYLE`   | `classic` / `minimal` / `none`         | `classic` | Icon theme |
+
+**Example `icons.conf`**
 ```bash
-# Enable or disable icons
 USE_ICONS=true
-
-# Prefix style: brackets | labels
 PREFIX_STYLE="brackets"
-
-# Icon theme: classic | minimal
 ICON_STYLE="classic"
 ```
 

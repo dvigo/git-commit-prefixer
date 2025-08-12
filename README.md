@@ -145,7 +145,7 @@ Test:
 ---
 
 ## 📜 License
-MIT License — Free to use and modify.
+GNU General Public License v3.0 — See [LICENSE](LICENSE) for details.
 
 ---
 

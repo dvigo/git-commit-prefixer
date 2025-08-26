@@ -46,9 +46,6 @@ git-commit-prefixer feat "add dark mode toggle"
 **Static preview**  
 ![Plugin demo static](assets/commit-prefixer.svg)
 
-**Live demo (Asciinema)**  
-[![asciicast](https://asciinema.org/a/LplBSexiC7dIuabqNyLUFzWt1.svg)](https://asciinema.org/a/LplBSexiC7dIuabqNyLUFzWt1)
-
 ---
 ## ⚙️ Configuration
 
